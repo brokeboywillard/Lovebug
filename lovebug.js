@@ -6,7 +6,7 @@ var noButton = document.getElementById('no-button');
 noButton.addEventListener('click', function() {
     // Enlarge the "Yes" button text
     var currentFontSize = window.getComputedStyle(yesButton, null).getPropertyValue('font-size');
-    var newSize = parseInt(currentFontSize) + 4 + 'px';
+    var newSize = parseInt(currentFontSize) + 14 + 'px';
     yesButton.style.fontSize = newSize;
 });
 
