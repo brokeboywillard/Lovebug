@@ -13,5 +13,5 @@ noButton.addEventListener('click', function() {
 // Add event listener to the "Yes" button
 yesButton.addEventListener('click', function() {
     // Display a sweet message
-    alert('Yes, I will be your Valentine! 💖');
+    alert('DUH i already knew that dummy! 💖');
 });
